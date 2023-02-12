@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: lightgrey;
+    background-color: hsla(112, 79%, 81%, 0.622);
 }
 
 .list-container {
@@ -17,13 +17,15 @@ body {
 }
 
 .btn {
-    border: 1px solid gray;
+    border: none;
     padding: 0.5em 1em;
     font-size: 1rem;
     color: white;
-    background-color: gray;
+    background-color: rgb(114, 31, 208);
     cursor: pointer;
     transition: scale .1s;
+    font-weight: 800;
+    margin: 1rem;
 }
 
 .btn:hover {
